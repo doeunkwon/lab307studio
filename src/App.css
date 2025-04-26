@@ -1,0 +1,17 @@
+#root {
+  display: flex;
+  flex-grow: 1;
+  margin: 16px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+  gap: 16px;
+}
+
+.App h2 {
+  margin: 0px;
+}
