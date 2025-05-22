@@ -1,14 +1,32 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 function App() {
   return (
-    <div className="App">
-      <div>LAB307 Technologies Inc.</div>
-      <div>We develop and distribute apps.</div>
-      <div>
-        <a href="mailto:support@lab307.studio">support@lab307.studio</a>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <div>LAB307 Technologies Inc.</div>
+                <div>
+                  <a href="mailto:support@lab307.studio">
+                    support@lab307.studio
+                  </a>
+                </div>
+                <div>
+                  <Link to="/privacy-policy">zzz: Privacy Policy</Link>
+                </div>
+              </div>
+            }
+          />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 

@@ -5,11 +5,28 @@
 }
 
 .App {
+  margin: 0 auto;
+  padding: 1rem;
   display: flex;
   flex: 1;
   flex-direction: column;
   text-align: center;
   gap: 20px;
-  font-weight: 100;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.privacy-policy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 1rem;
+}
+
+.privacy-policy-title {
   font-size: 1.5rem;
 }
