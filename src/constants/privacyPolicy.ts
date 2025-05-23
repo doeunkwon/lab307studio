@@ -9,11 +9,10 @@ If you do not agree with the terms of this Privacy Policy, please do not access 
 We collect the following categories of information:
 
 - Sleep Log Data: Sleep start and end times you manually enter or track in-app. Purpose: Core functionality—display sleep history, calculate sleep streaks, provide insights.
-- Activity & Habit Data: Encrypted activity names; timestamps of activity creation, completion, deletion. Purpose: Show progress, build routine analytics.
+- Activity & Habit Data: Encrypted activity names; timestamps of activity creation, completion. Purpose: Show progress, build routine analytics.
 - Profile & Preference Data: Preferred bedtime range, manual sleep/awake status, alert settings, sleep streak, profile creation/update timestamps. Purpose: Personalization, reminders, habit tracking.
-- Personal Identifiers: Name, email address, unique user ID, device ID. Purpose: Account creation, authentication, customer support.
+- Personal Identifiers: Email address, unique user ID. Purpose: Account creation, authentication, customer support.
 - Usage & Diagnostics: In-app actions, feature usage, crash logs (anonymized where possible). Purpose: Improve performance, develop new features.
-- Optional Health Data: If you connect Apple Health or similar (disabled by default). Purpose: Sync health metrics to enrich insights.
 
 2. How We Use Your Information
 
