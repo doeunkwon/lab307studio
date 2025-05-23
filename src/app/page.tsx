@@ -3,7 +3,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center h-full w-full">
       <main className="flex flex-col gap-12 items-center justify-center h-full w-full max-w-md">
         <div className="flex flex-col gap-8 items-center justify-center">
-          <h1 className="text-2xl">Hey – here's a bit about us.</h1>
+          <h1 className="text-2xl">{`Hey – here's a bit about us.`}</h1>
           <div className="flex flex-col gap-8 items-start justify-center text-lg">
             <div className="flex flex-row gap-4 items-start justify-center">
               <p className="text-2xl">🧑🏻‍💻</p>
