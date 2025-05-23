@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="flex flex-col items-center justify-center h-full w-full">
       <main className="flex flex-col gap-8 items-center justify-center h-full w-full max-w-lg ">
-        <div className="rounded-lg overflow-hidden">
+        <div className="rounded-2xl overflow-hidden">
           <Image
             src="/zzz.svg"
             alt="zzz"
@@ -14,13 +14,13 @@ export default function Projects() {
             objectFit="cover"
           />
         </div>
-        <div className="flex flex-col gap-4 items-center justify-center">
-          <h1 className="text-4xl">zzz</h1>
-          <h2 className="text-lg">
+        <div className="flex flex-col gap-2 items-center justify-center">
+          <h1 className="text-2xl text-center">zzz</h1>
+          <h2 className="text-lg text-center">
             An iOS app to optimize your wind down routine.
           </h2>
         </div>
-        <div className="flex flex-col gap-4 bg-gray-600 bg-opacity-10 p-8 rounded-lg w-full text-md">
+        <div className="flex flex-col gap-2 bg-gray-500 bg-opacity-10 p-8 rounded-lg w-full text-md">
           <h2 className="text-gray-400">Project Specs</h2>
           <ul className="list-disc marker:text-gray-400 space-y-2 pl-4">
             <li>Platform: iOS</li>
@@ -33,6 +33,11 @@ export default function Projects() {
             <li>
               <Link href="/apps/zzz/privacy" className="underline">
                 Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link href="/apps/zzz/terms" className="underline">
+                Terms of Use
               </Link>
             </li>
           </ul>

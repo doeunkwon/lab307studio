@@ -1,4 +1,4 @@
-export const privacyPolicy = `Effective Date: 19 May 2025
+export const PRIVACY_POLICY = `Effective Date: 19 May 2025
 
 LAB307 Technologies Inc. ("LAB307," "we," "our," or "us") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the zzz mobile application (the "App") and any associated services (collectively, the "Services").
 

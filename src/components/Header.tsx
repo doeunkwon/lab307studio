@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const pathname = usePathname();
   const iszzz = pathname === "/apps/zzz";
+  const iszzzTerms = pathname === "/apps/zzz/terms";
+  const iszzzPrivacy = pathname === "/apps/zzz/privacy";
   const isHome = pathname === "/";
 
   return (
@@ -27,7 +29,7 @@ export default function Header() {
         <Link href="/apps/zzz">
           <button
             className={`text-md px-4 py-2 rounded-lg transition-all duration-300 ${
-              iszzz
+              iszzz || iszzzTerms || iszzzPrivacy
                 ? "text-foreground"
                 : "text-gray-400 hover:bg-gray-600 hover:bg-opacity-10 hover:text-foreground"
             }`}
