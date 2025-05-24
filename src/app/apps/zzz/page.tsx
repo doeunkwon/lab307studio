@@ -27,17 +27,11 @@ export default function Projects() {
             <li>Release Date: June 2025</li>
             <li>Build Time: 4 months</li>
             <li>
-              Tech Stack: React Native, Expo, TypeScript, Supabase, and
-              Superwall
+              Tech Stack: React Native, Expo, TypeScript, Supabase, Superwall
             </li>
             <li>
               <Link href="/apps/zzz/privacy" className="underline">
                 Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link href="/apps/zzz/terms" className="underline">
-                Terms of Use
               </Link>
             </li>
           </ul>

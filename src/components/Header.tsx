@@ -15,10 +15,10 @@ export default function Header() {
       <div className="flex flex-row gap-4 items-center justify-center">
         <Link href="/">
           <button
-            className={`text-md px-4 py-2 rounded-lg transition-all duration-300 ${
+            className={`text-md px-4 py-2 rounded-full transition-all duration-300 ${
               isHome
                 ? "text-foreground"
-                : "text-gray-400 hover:bg-gray-600 hover:bg-opacity-10 hover:text-foreground"
+                : "text-gray-400 hover:bg-gray-300 hover:bg-opacity-10 hover:text-foreground"
             }`}
           >
             LAB 307
@@ -28,17 +28,17 @@ export default function Header() {
       <div className="flex flex-row md:gap-4 items-center justify-center">
         <Link href="/apps/zzz">
           <button
-            className={`text-md px-4 py-2 rounded-lg transition-all duration-300 ${
+            className={`text-md px-4 py-2 rounded-full transition-all duration-300 ${
               iszzz || iszzzTerms || iszzzPrivacy
                 ? "text-foreground"
-                : "text-gray-400 hover:bg-gray-600 hover:bg-opacity-10 hover:text-foreground"
+                : "text-gray-400 hover:bg-gray-300 hover:bg-opacity-10 hover:text-foreground"
             }`}
           >
             Apps
           </button>
         </Link>
         <a href="mailto:support@lab307.studio">
-          <button className="text-md px-4 py-2 rounded-lg text-gray-400 hover:bg-gray-600 hover:bg-opacity-10 hover:text-foreground transition-all duration-300">
+          <button className="text-md px-4 py-2 rounded-full text-gray-400 hover:bg-gray-300 hover:bg-opacity-10 hover:text-foreground transition-all duration-300">
             Support
           </button>
         </a>
