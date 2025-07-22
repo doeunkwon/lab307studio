@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/custom/Header";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 const inter = Inter({
   variable: "--font-inter",
