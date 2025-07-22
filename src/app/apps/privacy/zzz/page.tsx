@@ -1,14 +1,15 @@
 import { PRIVACY_POLICY } from "@/constants/privacyPolicy";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Privacy() {
   return (
-    <div className="flex flex-col items-center justify-center h-full w-full">
-      <main className="flex flex-col gap-8 items-center justify-center h-full w-full">
-        <h1 className="text-2xl">Privacy Policy</h1>
-        <div className="max-w-xl h-96 overflow-y-scroll bg-gray-500 bg-opacity-10 rounded-lg p-8">
-          <p className="whitespace-pre-wrap">{PRIVACY_POLICY}</p>
-        </div>
-      </main>
-    </div>
+    <ScrollArea
+      style={{ height: "calc(100vh - 108px)" }}
+      className="flex flex-1"
+    >
+      <div className="max-w-2xl mx-auto p-4">
+        <p className="whitespace-pre-wrap">{PRIVACY_POLICY}</p>
+      </div>
+    </ScrollArea>
   );
 }
