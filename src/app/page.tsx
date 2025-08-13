@@ -6,24 +6,17 @@ export default function Home() {
           <h1 className="text-2xl">Hey – here&apos;s a bit about us:</h1>
           <div className="flex flex-col gap-8 items-start justify-center text-lg">
             <div className="flex flex-row gap-4 items-start justify-center">
-              <p className="text-2xl">🧑🏻‍💻</p>
+              <p className="text-2xl">📚</p>
               <p>
                 Former college roommates, brought together by a shared passion
                 for building.
               </p>
             </div>
             <div className="flex flex-row gap-4 items-start justify-center">
-              <p className="text-2xl">📱</p>
+              <p className="text-2xl">🧑🏻‍💻</p>
               <p>
                 Focused on shipping fast, iterating quickly, and learning at
                 every step.
-              </p>
-            </div>
-            <div className="flex flex-row gap-4 items-start justify-center">
-              <p className="text-2xl">🌍</p>
-              <p>
-                Passionate about exploring innovative ways to distribute digital
-                products.
               </p>
             </div>
             <div className="flex flex-row gap-4 items-start justify-center">
