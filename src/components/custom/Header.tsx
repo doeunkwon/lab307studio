@@ -18,7 +18,7 @@ export default function Header() {
                 : "text-neutral-500 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-foreground"
             }`}
           >
-            LAB 307
+            LAB307
           </button>
         </Link>
       </div>
